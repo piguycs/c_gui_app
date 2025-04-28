@@ -20,13 +20,6 @@ file(GLOB_RECURSE SOURCE_FILES
 
 add_executable(window ${SOURCE_FILES})
 
-option(CLAY_INCLUDE_ALL_EXAMPLES "Build all examples" OFF)
-option(CLAY_INCLUDE_DEMOS "Build video demo and website" OFF)
-option(CLAY_INCLUDE_CPP_EXAMPLE "Build C++ example" OFF)
-option(CLAY_INCLUDE_RAYLIB_EXAMPLES "Build raylib examples" OFF)
-option(CLAY_INCLUDE_SDL2_EXAMPLES "Build SDL 2 examples" OFF)
-option(CLAY_INCLUDE_SDL3_EXAMPLES "Build SDL 3 examples" OFF)
-
 target_link_libraries(window PRIVATE raylib)
 
 target_include_directories(window PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/vendor/clay")
