@@ -2,10 +2,22 @@
 #define PALLETE_H
 
 #define ROSE_PINE_BASE { 25, 23, 36, 255 }
+#define ROSE_PINE_SURFACE { 31, 29, 46, 255 }
 #define ROSE_PINE_OVERLAY { 38, 35, 58, 255 }
+#define ROSE_PINE_MUTED { 110, 106, 134, 255 }
 #define ROSE_PINE_SUBTLE { 144, 140, 170, 255 }
 
-#define ROSE_PINE_IRIS { 196, 167, 231, 255 }
+#define ROSE_PINE_TEXT { 224, 222, 244, 255 }
+
+#define ROSE_PINE_LOVE { 235, 111, 146, 255 }
+#define ROSE_PINE_GOLD { 246, 193, 119, 255 }
+#define ROSE_PINE_ROSE { 235, 188, 186, 255 }
+#define ROSE_PINE_PINE { 49, 116, 143, 255 }
 #define ROSE_PINE_FOAM { 156, 207, 216, 255 }
+#define ROSE_PINE_IRIS { 196, 167, 231, 255 }
+
+#define ROSE_PINE_HL_LOW { 33, 32, 46, 255 }
+#define ROSE_PINE_HL_MED { 64, 61, 82, 255 }
+#define ROSE_PINE_HL_HIGH { 82, 79, 103, 255 }
 
 #endif

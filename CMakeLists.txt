@@ -13,7 +13,12 @@ add_subdirectory(
     vendor/raylib
 )
 
-add_executable(window main.c)
+file(GLOB_RECURSE SOURCE_FILES 
+    src/*.c
+    src/components/*.c
+)
+
+add_executable(window ${SOURCE_FILES})
 
 option(CLAY_INCLUDE_ALL_EXAMPLES "Build all examples" OFF)
 option(CLAY_INCLUDE_DEMOS "Build video demo and website" OFF)

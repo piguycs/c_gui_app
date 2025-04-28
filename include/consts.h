@@ -1,8 +1,10 @@
 #ifndef CONSTS_H
 #define CONSTS_H
 
-const int FIRA_CODE_REG = 0;
-const int FIRA_CODE_BOLD = 1;
-const int FIRA_CODE_RET = 2;
+extern const int FIRA_CODE_REG;
+extern const int FIRA_CODE_BOLD;
+extern const int FIRA_CODE_RET;
+
+#define MAX_INPUT_LEN 256
 
 #endif
