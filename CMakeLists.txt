@@ -25,6 +25,7 @@ option(CLAY_INCLUDE_SDL3_EXAMPLES "Build SDL 3 examples" OFF)
 target_link_libraries(window PRIVATE raylib)
 
 target_include_directories(window PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/vendor/clay")
+target_include_directories(window PRIVATE "include")
 
 target_compile_options(window PRIVATE -Wall -Wextra -Wpedantic)
 

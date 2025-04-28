@@ -1,3 +1,0 @@
-#define ROSE_PINE_BASE { 25, 23, 36, 255 }
-#define ROSE_PINE_OVERLAY { 38, 35, 58, 255 }
-#define ROSE_PINE_SUBTLE { 144, 140, 170, 255 }
